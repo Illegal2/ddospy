@@ -65,7 +65,7 @@ def get_url():
             print(Fore.RED + "URL GİRİNİZ")
 
 def select_days():
-    print(Fore.YELLOW + "\nKaç gün boyunca test yapılacak? (1-7)")
+    print(Fore.YELLOW + "\nKaç gün boyunca yapılacak? (1-7)")
     while True:
         try:
             d = int(input(Fore.WHITE + "Gün: "))
